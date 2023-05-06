@@ -39,30 +39,30 @@ public class Driver : MonoBehaviour
 
 
 
-        float threeSpeed = -5f;
-        float fourSpeed = -15f;
-        //switch statement to change the vertical speed of the car based on how many packages the car currently; 
-        //using object reference from Delivery class
-        switch (dp.count)
-        {
-            case 0:
-            case 1:
-            case 2:
-            break;
-            case 3:
-            moveSpeed = moveSpeed + threeSpeed;
-            break;
-            case 4:
-            moveSpeed = moveSpeed + fourSpeed;
-            break;
-            case 5:
-            moveSpeed = 0;
-            break;
-            default:
-            moveSpeed = 30;
-            break;
-        } 
-    }
+    //     float threeSpeed = -5f;
+    //     float fourSpeed = -15f;
+    //     //switch statement to change the vertical speed of the car based on how many packages the car currently; 
+    //     //using object reference from Delivery class
+    //     switch (dp.count)
+    //     {
+    //         case 0:
+    //         case 1:
+    //         case 2:
+    //         break;
+    //         case 3:
+    //         moveSpeed = moveSpeed + threeSpeed;
+    //         break;
+    //         case 4:
+    //         moveSpeed = moveSpeed + fourSpeed;
+    //         break;
+    //         case 5:
+    //         moveSpeed = 0;
+    //         break;
+    //         default:
+    //         moveSpeed = 30;
+    //         break;
+    //     } 
+    // }
 
     // slows down the car if it runs into anything
     // void OnCollisionEnter2D(Collision2D other) 
